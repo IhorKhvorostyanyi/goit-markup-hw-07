@@ -7,14 +7,14 @@
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo--begin {
-  color: $color-accent;
-}
-.logo--end-black {
-  color: #000000;
-}
-.logo--end-white {
-  color: #ffffff;
+  
+  &--begin {
+    color: $color-accent;
+  }
+  &--end-black {
+    color: #000000;
+  }
+  &--end-white {
+    color: #ffffff;
+  }
 }

@@ -1,7 +1,7 @@
 /* Features section  */
 
 .features {
-  background-color: $bckg-primary;
+  background-color: var(--bckg-primary);
 }
 /* Features section container*/
 .description {
@@ -34,7 +34,7 @@
   padding-left: 0;
   padding-right: 0;
   border-radius: 4px;
-  background-color: $bckg-secondary;
+  background-color: var(--bckg-secondary);
 }
 .description__icon {
   width: 70px;
@@ -60,5 +60,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: $color-secondary;
+  color: var(--color-secondary);
 }
